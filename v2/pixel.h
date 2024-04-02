@@ -11,7 +11,7 @@ public:
     Pixel(unsigned int m_r, unsigned int m_g, unsigned int m_b);
     ~Pixel();
     void add(Pixel p);
-    Pixel average(unsigned int count);
+    void average(unsigned int count);
 };
 
 #endif

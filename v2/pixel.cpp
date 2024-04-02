@@ -20,10 +20,8 @@ void Pixel::add(Pixel p) {
     b += p.b;
 }
 
-Pixel Pixel::average(unsigned int count) {
-    Pixel p;
-    p.r = r / count;
-    p.g = g / count;
-    p.b = b / count;
-    return p;
+void Pixel::average(unsigned int count) {
+    r = r / count;
+    g = g / count;
+    b = b / count;
 }

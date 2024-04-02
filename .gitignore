@@ -1,4 +1,5 @@
-
-/v2/.venv
+**/.venv
 /images
 .DS_Store
+stack.in
+stack.out
